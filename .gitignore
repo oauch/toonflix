@@ -10,6 +10,23 @@
 .svn/
 migrate_working_dir/
 
+# 폴더 무시때리기
+build/
+test/
+windows/
+linux/
+macos/
+web/
+
+# 파일 무시 때리기
+*.cc
+*.h
+*.cmake
+*.cpp
+*.swift
+*.gradle
+*.kt
+
 # IntelliJ related
 *.iml
 *.ipr
